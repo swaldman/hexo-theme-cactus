@@ -129,7 +129,8 @@ body
 pre
   overflow-x: auto
   padding: 10px 15px
-  padding-bottom: 0
+  padding-bottom: 15px
+  margin: 0
   border: 1px dotted $color-border
   border-radius: 4px
   font-size: 13px
@@ -143,10 +144,14 @@ pre
     border: none
 
 code
-  padding: 0 5px
+  padding: 0
   border-radius: 2px
   -webkit-border-radius: 2px
   background-color: $color-inline-code-background
+
+code.hljs
+  line-height: 105%
+  background-color: unset
 
 a code
   text-decoration: underline
@@ -219,6 +224,7 @@ a code
   pre span.line
     color: $color-line-number
     opacity: 1
+    line-height: 105%
 
   td.gutter
     opacity: 1
