@@ -144,9 +144,15 @@ pre
 
 code
   padding: 0 5px
-  border: 1px dotted $color-border
   border-radius: 2px
   -webkit-border-radius: 2px
+  background-color: $color-inline-code-background
+
+a code
+  text-decoration: underline
+  
+figure.highlight code
+  background-color: unset
 
 .highlight
   overflow-x: auto
@@ -209,3 +215,11 @@ code
 
   .line
     height: 22px
+
+  pre span.line
+    color: $color-line-number
+    opacity: 1
+
+  td.gutter
+    opacity: 1
+    
