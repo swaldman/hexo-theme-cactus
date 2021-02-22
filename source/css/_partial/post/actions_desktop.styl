@@ -121,12 +121,17 @@
   #toc
     float: right
     clear: both
-    overflow: auto
+    overflow: hidden
     margin-top: 1rem
     padding-right: 2rem
     max-width: 20em
     max-height: calc(95vh - 7rem)
-    text-align: right
+    text-align: left
+    text-overflow: ellipsis
+    white-space: nowrap
+
+    .toc-item
+      text-overflow: ellipsis
 
     a:hover
       color: $color-link
