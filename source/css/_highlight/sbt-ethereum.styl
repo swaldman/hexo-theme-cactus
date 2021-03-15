@@ -16,55 +16,69 @@
  * 
  */
 .highlight, pre /* code.hljs */
-  background: #333
+  background: #223
   color: white
 
-  .code
-    .name, .strong
-      font-weight: bold
+  .plain
+    color: #4f4
 
-    .code, .emphasis
-      font-style: italic
+  .name, .strong
+    font-weight: bold
 
-    .tag
-      color: #62c8f3
+  .emphasis
+    font-style: italic
 
-    .variable, .template-variable, .selector-id, .selector-class
-      color: #ade5fc
+  .tag
+    color: #62c8f3
 
-    .string, .bullet
-      color: #a2fca2
+  .variable, .template-variable, .selector-id, .selector-class
+    color: #ade5fc
 
-    .type, .title, .section, .attribute, .quote, .built_in, .builtin-name
-      color: #ffa
+  .string, .bullet
+    color: #a2fca2
 
-    .number, .symbol, .bullet
-      color: #d36363
+  .title
+    font-weight: bold
+    color: white
 
-    .keyword, .selector-tag, .literal
-      color: #fcc28c
+  .number, .symbol, .bullet
+    color: #d36363
 
-    .comment, .deletion, .code
-      color: #888
+  .keyword, .selector-tag, .literal
+    color: #fcc28c
+    font-weight: normal
 
-    .regexp, .link
-      color: #c6b4f0
+  .title .keyword
+    font-style: italic
+    color: yellow
 
-    .meta
-      color: #fc9b9b
+  .params .keyword
+    color: #fcf
 
-    .deletion
-      background-color: #fc9b9b
-      color: #333
+  .comment, .deletion
+    color: #aff
 
-    .addition
-      background-color: #a2fca2
-      color: #333
+  .regexp, .link
+    color: #c6b4f0
 
-    .highlight a
-      color: inherit
+  .meta
+    color: #bbb
 
-    .highlight a:focus, .highlight a:hover
-      color: inherit
-      text-decoration: underline
+  .meta .keyword
+    color: #bbb
+
+  .deletion
+    background-color: #fc9b9b
+    color: #333
+
+  .addition
+    background-color: #a2fca2
+    color: #333
+
+  .highlight a
+    color: inherit
+
+  .highlight a:focus, .highlight a:hover
+    color: inherit
+    text-decoration: underline
 
